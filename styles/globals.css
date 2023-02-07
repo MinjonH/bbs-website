@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "TT Hoves";
+    src: url("../public/fonts/TTHoves-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Belleza";
+    src: url("../public/fonts/Belleza-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lovelo Line";
+    src: url("../public/fonts/LoveloLineLight.otf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../public/fonts/OpenSans.ttf");
+}
+
+@layer base{
+    body{
+        @apply max-w-[100%] overflow-x-hidden
+    }
+    p{
+        @apply text-[#747474]
+    }
+
+}
+
+@layer components{
+    .navList{
+        @apply text-right hover:underline-offset-1 
+    }
+    .blueButton{
+        @apply ml-10 uppercase border-gray-400 border-solid border-[1px] py-2 px-6 hover:bg-[#036fb4] hover:text-white hover:border-[#036fb4] hover:scale-95 duration-[400ms] 
+    }
+
+    .yellowButton{
+        @apply uppercase hover:border-gray-400 hover:border-solid hover:border-[1px] py-4 px-8 bg-[#FBC335] text-black border-[#FBC335] hover:scale-95 hover:text-white hover:bg-white/0 duration-[400ms]
+    }
+    .slider{
+        @apply object-cover w-screen h-[35rem] opacity-50
+        
+    }
+    .projectBtn{
+        @apply text-center font-semibold py-3 px-6 mt-10 font-openSans tracking-wider text-[12pt] uppercase border-white border-solid border-[1px] hover:bg-[#036fb4] hover:text-white hover:border-[#036fb4] hover:scale-95 text-white bg-white/0 duration-[400ms]
+    }
+    .yearTag{
+        @apply text-white text-center tracking-wide font-ttHoves text-[13pt]
+    }
+
+    .locationTag{
+        @apply pb-2 pt-4 font-[500] text-white text-center tracking-wide font-ttHoves text-[14pt]
+    }
+
+    .linkDots{
+        @apply rounded-full bg-white p-[10px] cursor-pointer hover:scale-110 hover:text-[#FBC335] ease-in duration-300
+    }
+
+    .reveal{
+        @apply relative transform translate-y-[150px] opacity-0 duration-700 ease-in
+      }
+      .reveal.active{
+        @apply transform translate-y-0 opacity-[1]
+      }
+};
