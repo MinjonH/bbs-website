@@ -2,6 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 
 function ActionBtn() {
+	const onSubmit = (event) => {
+		event.preventDefault(event);
+		console.log(event.target.name.value);
+		console.log(event.target.email.value);
+	};
+
 	return (
 		<div className='w-full flex items-center py-14 md:grid grid-cols-5 gap-24 text-center bg-[#036fb4]'>
 			<div className='ml-[25%] col-span-3 w-[30rem]'>

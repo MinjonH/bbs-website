@@ -5,8 +5,9 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { IoCallOutline } from 'react-icons/io5';
 import Image from 'next/image';
 import BBSLogo from '../public/images/bbsLogo.png';
+import Container from './Container';
 
-function Navbar() {
+function Navbar({ buttonRef, showModal }) {
 	const [nav, setNav] = useState(false);
 	const [colour, setColour] = useState(false);
 
@@ -24,6 +25,12 @@ function Navbar() {
 		};
 		window.addEventListener('scroll', handleScroll);
 	}, []);
+
+	const onSubmit = (event) => {
+		event.preventDefault(event);
+		console.log(event.target.name.value);
+		console.log(event.target.email.value);
+	};
 
 	return (
 		<div
@@ -53,13 +60,7 @@ function Navbar() {
 							</li>
 						</Link>
 						<div>
-							<Link href='/contact'>
-								<button>
-									<li className='blueButton text-md font-semibold'>
-										Get a quote
-									</li>
-								</button>
-							</Link>
+							<Container onSubmit={onSubmit} />
 						</div>
 					</ul>
 

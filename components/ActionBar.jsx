@@ -1,11 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { IoCallOutline } from 'react-icons/io5';
 import { AiOutlineMail } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 
 function ActionBar() {
+	const [hide, setHide] = useState(false);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			if (window.scrollY >= 90) {
+				setHide(true);
+			} else {
+				setHide(false);
+			}
+		};
+		window.addEventListener('scroll', handleScroll);
+	}, []);
+
 	return (
-		<section className='relative z-[90]'>
+		<section
+			className={
+				hide
+					? 'relative z-[90] duration-700 ease-in'
+					: 'opacity-0 ease-out duration-700'
+			}
+		>
 			<div className='max-w-[50%] mx-auto block'>
 				<div className='grid grid-cols-6 place-items-center h-48 -mt-20 bg-white shadow-md'>
 					<div className='bg-[#ff7500]'>
