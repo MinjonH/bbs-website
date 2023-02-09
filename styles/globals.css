@@ -43,6 +43,10 @@
     .yellowButton{
         @apply uppercase hover:border-gray-400 hover:border-solid hover:border-[1px] py-4 px-8 bg-[#FBC335] text-black border-[#FBC335] hover:scale-95 hover:text-white hover:bg-white/0 duration-[400ms]
     }
+
+    .formButton{
+        @apply uppercase hover:border-gray-400 border-solid border-[1px] mt-4 py-4 w-full bg-[#ff7500] border-[#ff7500] text-white hover:text-black hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold text-[14pt] cursor-pointer
+    }
     .slider{
         @apply object-cover w-screen h-[35rem] opacity-50
         

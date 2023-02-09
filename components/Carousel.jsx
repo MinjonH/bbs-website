@@ -32,7 +32,7 @@ export default function Carousel({
 			<Swiper
 				centeredSlides={true}
 				autoplay={{
-					delay: 10000,
+					delay: 5000,
 					disableOnInteraction: false,
 				}}
 				pagination={{
