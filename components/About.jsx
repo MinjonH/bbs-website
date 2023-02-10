@@ -20,6 +20,33 @@ function About() {
 					computerized saws, 25-meter-long high-accuracy steel truss table, and
 					laminating beam manufacturing unit.
 				</p>
+				<div className='grid grid-cols-3'>
+					<div>
+						<p className='text-8xl font-openSans font-bold text-white'>
+							<span className='text-[#ff7500]'>+</span>350
+						</p>
+						<p className='pt-2 uppercase tracking-wide font-ttHoves text-center items-center'>
+							executed projects
+						</p>
+					</div>
+					<div>
+						<p className='text-center text-8xl font-openSans font-bold text-white'>
+							50
+							<span className='text-[#ff7500]'>Y</span>
+						</p>
+						<p className='pt-2 uppercase tracking-wide font-ttHoves text-center items-center'>
+							experience
+						</p>
+					</div>
+					<div>
+						<p className='text-right text-8xl font-openSans font-bold text-white'>
+							<span className='text-[#ff7500]'>+</span>400
+						</p>
+						<p className='pt-2 uppercase tracking-wide font-ttHoves text-center items-center'>
+							satisfied clients
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

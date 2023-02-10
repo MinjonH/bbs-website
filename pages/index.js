@@ -37,8 +37,6 @@ export default function Home() {
 				<About />
 				<ActionBtn />
 				<ProjectSlider />
-				<Footer />
-				<Copyright />
 			</div>
 		</div>
 	);

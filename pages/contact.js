@@ -14,8 +14,6 @@ function contact() {
 				<link rel='icon' href='/images/bbsIcon.png' />
 			</Head>
 			<Contact />
-			<Footer />
-			<Copyright />
 		</div>
 	);
 }
