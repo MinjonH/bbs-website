@@ -1,12 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import Landing from '../components/Landing';
 import ActionBar from '../components/ActionBar';
 import About from '../components/About';
 import ActionBtn from '../components/ActionBtn';
 import ProjectSlider from '../components/ProjectSlider';
-import Footer from '@/components/Footer';
-import Copyright from '@/components/Copyright';
 
 export default function Home() {
 	return (
@@ -18,18 +17,22 @@ export default function Home() {
 				<link rel='icon' href='/images/bbsIcon.png' />
 			</Head>
 			<div>
-				<section className='absolute z-20 mt-[15%] ml-64 text-[70pt] font-ttHoves text-white'>
+				<section className='absolute z-20 mt-[15%] ml-12 md:ml-24 xl:ml-64 text-5xl xl:text-[70pt] font-ttHoves text-white'>
 					We can build your
-					<div className='text-8xl text-left font-loveloLine'>DREAM</div>
-					<div className='mt-20 text-[25pt] w-[25rem] font-belleza text-white'>
+					<div className='xl:text-8xl text-6xl mt-4 xl:mt-8 text-left font-loveloLine'>
+						DREAM
+					</div>
+					<div className='xl:mt-20 mt-10 text-[20pt] xl:text-[25pt] w-[25rem] font-belleza text-white'>
 						Let us help you make your dream home a reality
 					</div>
 					<ul>
-						<button>
-							<li className='yellowButton absolute -mt-16 font-openSans tracking-wider font-semibold text-[14pt]'>
-								Get in touch
-							</li>
-						</button>
+						<Link href='/contact'>
+							<button>
+								<li className='yellowButton absolute -mt-18 font-openSans tracking-wider font-semibold text-[14pt]'>
+									Get in touch
+								</li>
+							</button>
+						</Link>
 					</ul>
 				</section>
 				<Landing />

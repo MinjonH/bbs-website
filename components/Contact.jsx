@@ -5,9 +5,9 @@ import { GoLocation } from 'react-icons/go';
 
 function Contact() {
 	return (
-		<div className='h-[100vh] max-w-screen'>
+		<div className='h-[175vh] max-w-screen'>
 			{/* Left */}
-			<div className='ml-36 '>
+			<div className='lg:ml-36 md:ml-[25%] h-screen'>
 				<p className='font-semibold text-[20pt] font-ttHoves pt-48 text-[#ff7500]'>
 					Contact Us
 				</p>
@@ -62,9 +62,10 @@ function Contact() {
 					</div>
 				</div>
 			</div>
+
 			{/* Right */}
-			<div className='relative bg-[#036fb4] w-[464px] h-[564px] -mt-[30%] left-[63%]'></div>
-			<div className='relative bg-white w-[576px] h-[559px] -mt-[27%] left-[55%] col-span-3'>
+			<div className='relative bg-[#036fb4] w-[364px] h-[564px] md:bottom-6 md:left-[40%] lg:-mt-[30%] lg:left-[63%]'></div>
+			<div className='relative bg-white w-[476px] h-[559px] md:left-[20%] md:bottom-[35%] lg:-mt-[27%] lg:left-[55%] col-span-3'>
 				<div className='p-8'>
 					<form
 						action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'

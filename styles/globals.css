@@ -48,26 +48,30 @@
         @apply uppercase hover:border-gray-400 border-solid border-[1px] mt-4 py-4 w-full bg-[#ff7500] border-[#ff7500] text-white hover:text-black hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold text-[14pt] cursor-pointer
     }
     .slider{
-        @apply object-cover w-screen h-[35rem] opacity-50
+        @apply object-cover w-screen md:h-[25rem] lg:h-[35rem] opacity-50
         
     }
     .projectBtn{
         @apply text-center font-semibold py-3 px-6 mt-10 font-openSans tracking-wider text-[12pt] uppercase border-white border-solid border-[1px] hover:bg-[#036fb4] hover:text-white hover:border-[#036fb4] hover:scale-95 text-white bg-white/0 duration-[400ms]
     }
     .yearTag{
-        @apply text-white text-center tracking-wide font-ttHoves text-[13pt]
+        @apply text-white text-center tracking-wide font-ttHoves text-[15pt]
     }
 
     .locationTag{
-        @apply pb-2 pt-4 font-[500] text-white text-center tracking-wide font-ttHoves text-[14pt]
+        @apply pb-2 pt-4 font-[500] text-white text-center tracking-wide font-ttHoves text-[16pt]
     }
 
     .linkDots{
         @apply rounded-full bg-white p-[10px] cursor-pointer hover:scale-110 hover:text-[#FBC335] ease-in duration-300
     }
 
+    .linkDotsMobile{
+        @apply rounded-full bg-[#036fb4] p-[10px] cursor-pointer hover:scale-110 hover:bg-[#FBC335] ease-in duration-300 text-white
+    }
+
     .modal-cover{
-        @apply fixed top-[25%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-[25%] h-fit z-[100]
+        @apply fixed top-[25%] left-[50%] -translate-x-[50%] -translate-y-[50%] md:w-[50%] lg:w-[25%] h-fit z-[100]
     }
 
     .modal-area {

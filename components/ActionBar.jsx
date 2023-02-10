@@ -21,12 +21,12 @@ function ActionBar() {
 		<section
 			className={
 				hide
-					? 'relative z-[90] duration-700 ease-in'
-					: 'opacity-0 ease-out duration-700'
+					? 'relative z-20 duration-700 ease-in hidden lg:flex'
+					: 'opacity-0 ease-out duration-700 hidden lg:flex'
 			}
 		>
 			<div className='max-w-[50%] mx-auto block'>
-				<div className='grid grid-cols-6 place-items-center h-48 -mt-20 bg-white shadow-md'>
+				<div className='grid grid-cols-6 place-items-center lg:h-48 -mt-[100%] lg:-mt-20 bg-white'>
 					<div className='bg-[#ff7500]'>
 						<IoCallOutline className='cursor-pointer p-[10px]' size={75} />
 					</div>

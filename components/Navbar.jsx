@@ -36,8 +36,8 @@ function Navbar({ buttonRef, showModal }) {
 		<div
 			className={
 				colour
-					? 'fixed w-full h-20 shadow-xl bg-white text-black z-[100] ease-in duration-700'
-					: 'fixed w-full h-20 z-[100] text-white ease-out duration-700'
+					? 'fixed w-screen h-20 shadow-xl bg-white text-black z-[100] ease-in duration-700'
+					: 'fixed w-screen h-20 z-[100] text-white ease-out duration-700'
 			}
 		>
 			{/* Create navbar links on left */}
@@ -72,66 +72,63 @@ function Navbar({ buttonRef, showModal }) {
 			</div>
 
 			<div>
-				<Image
-					alt='logo'
-					className={
-						colour
-							? 'ease-out w-28 absolute right-12 top-4 duration-700'
-							: 'absolute w-52 right-12 top-6 ease-in duration-700'
-					}
-					src={BBSLogo}
-				/>
+				<Link href='/'>
+					<Image
+						alt='logo'
+						className={
+							colour
+								? 'ease-out w-28 absolute right-6 lg:right-12 top-4 duration-700'
+								: 'absolute w-36 lg:w-52 right-6 lg:right-12 top-6 ease-in duration-700'
+						}
+						src={BBSLogo}
+					/>
+				</Link>
 			</div>
 
 			{/* Sidenav */}
 			<div
 				className={
-					nav ? ' md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+					nav
+						? 'z-[100] md:hidden fixed left-0 top-0 w-full h-full bg-black/70'
+						: ''
 				}
 			>
 				<div
 					className={
 						nav
-							? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-							: 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+							? 'z-[100] fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-white p-10 ease-in duration-700'
+							: 'z-[100] fixed left-[-100%] h-full top-0 p-10 ease-in duration-700'
 					}
 				>
 					<div>
 						{/* Image container */}
 						<div className='flex w-full items-center justify-between'>
-							<Image src={BBSLogo} alt='logo' width='85' height='50' />
+							<Image src={BBSLogo} alt='logo' width={95} />
 							{/* Icon container */}
 							<div
 								onClick={handleNav}
 								className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer'
 							>
-								<AiOutlineClose />
+								<AiOutlineClose className='text-black' />
 							</div>
 						</div>
-						<div className='py-4 flex flex-col'>
-							<ul className='uppercase'>
+						<div className='pt-12 flex flex-col'>
+							<ul className='uppercase text-black'>
 								<Link href='/'>
 									<li className='py-4 text-sm'>Home</li>
 								</Link>
-								<Link href='/'>
-									<li className='py-4 text-sm'>About</li>
-								</Link>
-								<Link href='/'>
+								<Link href='/projects'>
 									<li className='py-4 text-sm'>Projects</li>
 								</Link>
-								<Link href='/'>
+								<Link href='/contact'>
 									<li className='py-4 text-sm'>Contact</li>
 								</Link>
 							</ul>
-							<div className='pt-40 uppercase tracking-widest text-[#9C89B8]'>
+							<div className='pt-40 uppercase tracking-widest text-center text-black'>
 								<p>Let's Connect</p>
-								<div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-									<a
-										href='https://www.linkedin.com/in/minjon-holtzhausen'
-										target='_blank'
-										rel='noreferrer'
-									>
-										<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 duration-300'>
+								<div className='flex items-center justify-between my-8 px-10 w-full'>
+									<a href='/' target='_blank' rel='noreferrer'>
+										<div className='linkDotsMobile'>
 											<FaLinkedinIn />
 										</div>
 									</a>
@@ -141,7 +138,7 @@ function Navbar({ buttonRef, showModal }) {
 										target='_blank'
 										rel='noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 duration-300'>
+										<div className='linkDotsMobile'>
 											<FaGithub />
 										</div>
 									</a>
@@ -151,13 +148,13 @@ function Navbar({ buttonRef, showModal }) {
 										target='_blank'
 										rel='noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 duration-300'>
+										<div className='linkDotsMobile'>
 											<AiOutlineMail />
 										</div>
 									</a>
 
 									<a href='tel:+27836029730'>
-										<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 duration-300'>
+										<div className='linkDotsMobile'>
 											<IoCallOutline />
 										</div>
 									</a>

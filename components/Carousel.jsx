@@ -44,7 +44,7 @@ export default function Carousel({
 				<SwiperSlide>
 					<Image className='slider' src={image1} alt='image 1' />
 					<div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-						<h3 className='text-2xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
+						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title1}
 						</h3>
 						<p className='locationTag'>{location1}</p>
@@ -58,7 +58,7 @@ export default function Carousel({
 				<SwiperSlide>
 					<Image className='slider' src={image2} alt='image 2' />
 					<div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-						<h3 className='text-2xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
+						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title2}
 						</h3>
 						<p className='locationTag'>{location2}</p>
@@ -72,7 +72,7 @@ export default function Carousel({
 				<SwiperSlide>
 					<Image className='slider' src={image3} alt='image 3' />
 					<div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-						<h3 className='text-2xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
+						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title3}
 						</h3>
 						<p className='locationTag'>{location3}</p>

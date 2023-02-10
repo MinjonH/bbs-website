@@ -3,8 +3,8 @@ import Carousel from './Carousel';
 
 const ProjectSlider = () => {
 	return (
-		<div id='projects' className='w-full'>
-			<div className='mx-auto py-16'>
+		<div className='w-full py-16'>
+			<div className='mx-auto'>
 				<h1 className='px-24 font-bold text-5xl pb-12 font-openSans tracking-widest text-white'>
 					Projects
 				</h1>
