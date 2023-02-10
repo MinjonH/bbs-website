@@ -14,7 +14,7 @@ function Footer() {
 				<div className='absolute top-0 left-0 w-full md:h-[50vh] lg:h-[100vh] z-10 bg-black'>
 					<div className='absolute z-10 text-white font-ttHoves top-[25%] left-[50%] translate-x-[-50%] translate-y-[-25%]'>
 						<h1 className='font-bold md:text-5xl lg:text-[50pt] tracking-wider'>
-							Let's Connect
+							Let&apos;s Connect
 						</h1>
 					</div>
 

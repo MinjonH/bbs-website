@@ -125,7 +125,7 @@ function Navbar({ buttonRef, showModal }) {
 								</Link>
 							</ul>
 							<div className='pt-40 uppercase tracking-widest text-center text-black'>
-								<p>Let's Connect</p>
+								<p>Let&apos;s Connect</p>
 								<div className='flex items-center justify-between my-8 px-10 w-full'>
 									<a href='/' target='_blank' rel='noreferrer'>
 										<div className='linkDotsMobile'>

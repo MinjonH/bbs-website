@@ -23,6 +23,7 @@ function ActionBtn() {
 			<a
 				href={`https://wa.me/27764110493?text=${encodeURIComponent()}`}
 				target='_blank'
+				rel='noreferrer'
 			>
 				<div className='mr-12 lg:mr-20 uppercase hover:border-gray-400 border-solid border-[1px] md:p-4 lg:p-6 bg-[#fdbe00] hover:text-white border-[#fdbe00] hover:bg-white/0  hover:scale-95 duration-[400ms] ont-openSans tracking-wider font-semibold lg:text-[14pt] cursor-pointer'>
 					TALK TO SOMEONE
