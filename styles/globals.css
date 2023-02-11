@@ -37,7 +37,7 @@
         @apply text-right hover:underline-offset-1 
     }
     .blueButton{
-        @apply ml-10 uppercase border-gray-400 border-solid border-[1px] py-2 px-6 hover:bg-[#036fb4] hover:text-white hover:border-[#036fb4] hover:scale-95 duration-[400ms] 
+        @apply ml-10 uppercase border-gray-400 border-solid border-[1px] py-2 px-6 hover:bg-[#036fb4] hover:text-white hover:border-[#00000000] hover:scale-95 duration-[400ms] 
     }
 
     .yellowButton{

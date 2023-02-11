@@ -6,6 +6,7 @@ import { FiInstagram } from 'react-icons/fi';
 import { ImWhatsapp } from 'react-icons/im';
 import { BsFacebook } from 'react-icons/bs';
 import { GrLinkedin, GrMail } from 'react-icons/gr';
+import qrCode from '../public/images/qrLink.png';
 
 function Footer() {
 	return (
@@ -20,13 +21,13 @@ function Footer() {
 
 					<div className='md:text-2xl lg:text-[25pt] absolute z-10 font-semibold top-[50%] left-[25%] translate-x-[-50%] translate-y-[-25%]'>
 						<p className='text-white'>43 Knutzen Street</p>
-						<p className='text-white'>Empangeni</p>
+						<p className='text-white py-4'>Empangeni</p>
 						<p className='text-white'>3880</p>
 					</div>
 
 					<div className='md:text-2xl lg:text-[25pt] absolute z-10 font-semibold top-[50%] left-[75%] translate-x-[-50%] translate-y-[-25%]'>
 						<p className='text-white'>Tel: 035 787 1453</p>
-						<p className='text-white'>Email: truss1@bbsgroup.co.za</p>
+						<p className='text-white py-4'>Email: truss1@bbsgroup.co.za</p>
 						<div className='flex items-left grid-cols-5 gap-4 m-auto pt-4'>
 							<a
 								href={`https://wa.me/27764110493?text=${encodeURIComponent()}`}
@@ -37,27 +38,38 @@ function Footer() {
 									<ImWhatsapp size={25} />
 								</div>
 							</a>
-							<a href='/' target='_blank' rel='noreferrer'>
+							{/* <a href='/' target='_blank' rel='noreferrer'>
 								<div className='linkDots'>
 									<GrLinkedin size={25} />
 								</div>
-							</a>
-							<a href='/' target='_blank' rel='noreferrer'>
+							</a> */}
+							<a
+								href='/https://www.facebook.com/BBSMicaBallito'
+								target='_blank'
+								rel='noreferrer'
+							>
 								<div className='linkDots'>
 									<BsFacebook size={25} />
 								</div>
 							</a>
-							<a href='/' target='_blank' rel='noreferrer'>
+							{/* <a href='/' target='_blank' rel='noreferrer'>
 								<div className='linkDots'>
 									<FiInstagram size={25} />
 								</div>
-							</a>
+							</a> */}
 							<Link href='mailto:truss1@bbsgroup.co.za'>
 								<div className='linkDots'>
 									<GrMail size={25} />
 								</div>
 							</Link>
 						</div>
+					</div>
+					<div className='absolute z-[10] top-[80%] left-[90%] translate-x-[-50%] translate-y-[-50%]'>
+						<Link href='https://www.facebook.com/watch/?v=3108218539462337'>
+							<div className='w-24'>
+								<Image src={qrCode} />
+							</div>
+						</Link>
 					</div>
 					<Image
 						alt='Footer image'
