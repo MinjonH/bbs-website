@@ -28,7 +28,7 @@ export default function Home() {
 					<ul>
 						<Link href='/contact'>
 							<button>
-								<li className='yellowButton absolute -mt-12 2xl:mt-0 font-openSans tracking-wider font-semibold text-[14pt]'>
+								<li className='yellowButton absolute md:-mt-18 lg:-mt-12 2xl:mt-0 font-openSans tracking-wider font-semibold text-[14pt]'>
 									Get in touch
 								</li>
 							</button>
