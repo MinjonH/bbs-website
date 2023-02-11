@@ -5,10 +5,10 @@ import Image from 'next/image';
 function About() {
 	return (
 		<div className='w-full pt-[75%] lg:pt-24 items-center pb-24 lg:pb-16 lg:grid grid-cols-2'>
-			<div className='w-full flex lg:ml-10 px-10'>
+			<div className='w-full flex 2xl:ml-10 px-10'>
 				<Image src={AboutImg} alt='/' />
 			</div>
-			<div className='pl-24 mr-24 sm:pt-12'>
+			<div className='pl-24 mr-24 pt-12 lg:pt-0'>
 				<p className='font-bold pb-4 text-5xl font-openSans tracking-widest text-white'>
 					About Us
 				</p>
@@ -20,17 +20,17 @@ function About() {
 					computerized saws, 25-meter-long high-accuracy steel truss table, and
 					laminating beam manufacturing unit.
 				</p>
-				<div className='grid grid-cols-3 md:pt-6'>
+				<div className='grid grid-cols-3 md:pt-6 lg:-ml-24 lg:-mr-12 2xl:mr-6'>
 					<div>
-						<p className='lg:text-8xl md:text-6xl text-5xl font-openSans font-bold text-white'>
-							<span className='text-[#ff7500]'>+</span>350
+						<p className='2xl:text-8xl lg:text-7xl md:text-6xl text-5xl font-openSans font-bold text-white'>
+							<span className='text-[#ff7500]'>+</span>3500
 						</p>
 						<p className='pt-2 uppercase tracking-wide font-ttHoves lg:text-center items-center md:text-sm'>
 							executed projects
 						</p>
 					</div>
 					<div>
-						<p className='text-center lg:text-8xl md:text-6xl text-5xl font-openSans font-bold text-white'>
+						<p className='text-center 2xl:text-8xl lg:text-7xl md:text-6xl text-5xl font-openSans font-bold text-white'>
 							50
 							<span className='text-[#ff7500]'>Y</span>
 						</p>
@@ -39,7 +39,7 @@ function About() {
 						</p>
 					</div>
 					<div>
-						<p className='lg:text-right md:text-center lg:text-8xl md:text-6xl text-5xl font-openSans font-bold text-white'>
+						<p className='md:text-center 2xl:text-8xl lg:text-7xl md:text-6xl text-5xl font-openSans font-bold text-white'>
 							<span className='text-[#ff7500]'>+</span>400
 						</p>
 						<p className='pt-2 uppercase tracking-wide font-ttHoves text-center items-center md:text-sm'>

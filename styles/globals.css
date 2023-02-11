@@ -45,10 +45,10 @@
     }
 
     .formButton{
-        @apply uppercase hover:border-gray-400 border-solid border-[1px] mt-4 py-4 w-full bg-[#ff7500] border-[#ff7500] text-white hover:text-black hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold text-[14pt] cursor-pointer
+        @apply uppercase hover:border-gray-400 border-solid border-[1px] mt-4 py-4 lg:mt-2 lg:py-2 2xl:mt-4 2xl:py-4 w-full bg-[#ff7500] border-[#ff7500] text-white hover:text-black hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold text-[14pt] cursor-pointer
     }
     .slider{
-        @apply object-cover w-screen md:h-[25rem] lg:h-[35rem] opacity-50
+        @apply object-cover w-screen md:h-[25rem] 2xl:h-[35rem] opacity-50
         
     }
     .projectBtn{
@@ -71,7 +71,7 @@
     }
 
     .modal-cover{
-        @apply fixed top-[25%] left-[50%] -translate-x-[50%] -translate-y-[50%] md:w-[50%] lg:w-[25%] h-fit z-[100]
+        @apply fixed top-[25%] lg:top-[10%] 2xl:top-[25%] left-[50%] -translate-x-[50%] -translate-y-[50%] md:w-[50%] lg:w-[30%] h-fit z-[100]
     }
 
     .modal-area {

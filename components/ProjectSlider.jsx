@@ -6,19 +6,13 @@ const ProjectSlider = () => {
 		<div className='w-full py-16'>
 			<div className='mx-auto'>
 				<h1 className='px-24 font-bold text-5xl pb-12 font-openSans tracking-widest text-white'>
-					Projects
+					What we offer
 				</h1>
 				<div>
 					<Carousel
-						title1='Project 1'
-						title2='Project 2'
-						title3='Project 3'
-						location1='Empangeni'
-						location2='Durban'
-						location3='Ballito'
-						year1='2017'
-						year2='2018'
-						year3='2019'
+						title1='Timber Trusses'
+						title2='Light Gauge Steel Trusses'
+						title3='Laminated Beams'
 					/>
 				</div>
 			</div>

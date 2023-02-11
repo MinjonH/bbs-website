@@ -47,10 +47,8 @@ export default function Carousel({
 						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title1}
 						</h3>
-						<p className='locationTag'>{location1}</p>
-						<p className='yearTag'>{year1}</p>
 
-						<Link href='/projects'>
+						<Link href='/projects/timber'>
 							<p className='projectBtn'>More Info</p>
 						</Link>
 					</div>
@@ -61,10 +59,8 @@ export default function Carousel({
 						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title2}
 						</h3>
-						<p className='locationTag'>{location2}</p>
-						<p className='yearTag'>{year2}</p>
 
-						<Link href='/projects'>
+						<Link href='/projects/lgsteel'>
 							<p className='projectBtn'>More Info</p>
 						</Link>
 					</div>
@@ -75,9 +71,7 @@ export default function Carousel({
 						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title3}
 						</h3>
-						<p className='locationTag'>{location3}</p>
-						<p className='yearTag'>{year3}</p>
-						<Link href='/projects'>
+						<Link href='/projects/laminatedbeams'>
 							<p className='projectBtn'>More Info</p>
 						</Link>
 					</div>

@@ -78,7 +78,7 @@ function Navbar({ buttonRef, showModal }) {
 						className={
 							colour
 								? 'ease-out w-28 absolute right-6 lg:right-12 top-4 duration-700'
-								: 'absolute w-36 lg:w-52 right-6 lg:right-12 top-6 ease-in duration-700'
+								: 'absolute w-36 2xl:w-52 right-6 lg:right-12 top-6 ease-in duration-700'
 						}
 						src={BBSLogo}
 					/>

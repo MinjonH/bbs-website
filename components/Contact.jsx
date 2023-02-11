@@ -5,20 +5,20 @@ import { GoLocation } from 'react-icons/go';
 
 function Contact() {
 	return (
-		<div className='h-[175vh] max-w-screen'>
+		<div className='h-[175vh] lg:h-screen max-w-screen'>
 			{/* Left */}
 			<div className='lg:ml-36 md:ml-[25%] h-screen'>
-				<p className='font-semibold text-[20pt] font-ttHoves pt-48 text-[#ff7500]'>
+				<p className='font-semibold md:text-[20pt] lg:text-[15pt] 2xl:text-[20pt] font-ttHoves md:pt-48 lg:pt-24 2xl:pt-48 text-[#ff7500]'>
 					Contact Us
 				</p>
-				<h1 className='font-black text-white text-[40pt] font-ttHoves mt-2'>
+				<h1 className='font-black text-white md:text-[40pt] lg:text-[35pt] 2xl:text-[40pt] font-ttHoves mt-2'>
 					Get in touch
 				</h1>
-				<h1 className='font-black text-white text-[40pt] font-ttHoves -mt-4'>
+				<h1 className='font-black text-white md:text-[40pt] lg:text-[35pt] 2xl:text-[40pt] font-ttHoves -mt-4'>
 					with our team
 				</h1>
 				{/* Call Button */}
-				<div className='flex pt-12'>
+				<div className='flex md:pt-12 lg:pt-8 2xl:pt-12'>
 					<div className='rounded-full border-solid border-[#FBC335] border-4 p-4 text-[#FBC335] ease-in duration-300'>
 						<IoCallOutline size={35} />
 					</div>
@@ -64,9 +64,9 @@ function Contact() {
 			</div>
 
 			{/* Right */}
-			<div className='relative bg-[#036fb4] w-[364px] h-[564px] md:bottom-6 md:left-[40%] lg:-mt-[30%] lg:left-[63%]'></div>
-			<div className='relative bg-white w-[476px] h-[559px] md:left-[20%] md:bottom-[35%] lg:-mt-[27%] lg:left-[55%] col-span-3'>
-				<div className='p-8'>
+			<div className='relative bg-[#036fb4] md:w-[364px] 2xl:w-[464px] h-[569px] lg:h-[480px] 2xl:h-[569px] md:bottom-12 2xl:bottom-6 md:left-[40%] lg:-mt-[34%] lg:left-[68%] 2xl:-mt-[40%] 2xl:left-[63%]'></div>
+			<div className='relative bg-white md:w-[476px] lg:w-[500px] 2xl:w-[576px] h-[559px] lg:h-[500px] 2xl:h-[569px] md:left-[20%] md:bottom-[86%] 2xl:bottom-[35%] lg:left-[55%] 2xl:-mt-[10%] 2xl:left-[55%] col-span-3'>
+				<div className='md:p-8 lg:p-6 2xl:p-8'>
 					<form
 						action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'
 						method='POST'
