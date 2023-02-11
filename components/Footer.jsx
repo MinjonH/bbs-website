@@ -64,7 +64,7 @@ function Footer() {
 							</Link>
 						</div>
 					</div>
-					<div className='absolute z-[10] top-[80%] left-[90%] translate-x-[-50%] translate-y-[-50%]'>
+					<div className='absolute z-[10] md:top-[75%] lg:top-[80%] left-[90%] translate-x-[-50%] translate-y-[-50%]'>
 						<Link href='https://www.facebook.com/watch/?v=3108218539462337'>
 							<div className='w-24'>
 								<Image src={qrCode} />

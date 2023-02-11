@@ -5,7 +5,7 @@ import { GoLocation } from 'react-icons/go';
 
 function Contact() {
 	return (
-		<div className='h-[175vh] lg:h-screen max-w-screen'>
+		<div className='h-[130vh] lg:h-screen max-w-screen'>
 			{/* Left */}
 			<div className='lg:ml-36 md:ml-[25%] h-screen'>
 				<p className='font-semibold md:text-[20pt] lg:text-[15pt] 2xl:text-[20pt] font-ttHoves md:pt-48 lg:pt-24 2xl:pt-48 text-[#ff7500]'>
@@ -64,58 +64,59 @@ function Contact() {
 			</div>
 
 			{/* Right */}
-			<div className='relative bg-[#036fb4] md:w-[364px] 2xl:w-[464px] h-[569px] lg:h-[480px] 2xl:h-[569px] md:bottom-12 2xl:bottom-6 md:left-[40%] lg:-mt-[34%] lg:left-[68%] 2xl:-mt-[40%] 2xl:left-[63%]'></div>
-			<div className='relative bg-white md:w-[476px] lg:w-[500px] 2xl:w-[576px] h-[559px] lg:h-[500px] 2xl:h-[569px] md:left-[20%] md:bottom-[86%] 2xl:bottom-[35%] lg:left-[55%] 2xl:-mt-[10%] 2xl:left-[55%] col-span-3'>
-				<div className='md:p-8 lg:p-6 2xl:p-8'>
-					<form
-						action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'
-						method='POST'
-						enctype='multipart/form-data'
-					>
-						<div className='grid md:grid-cols-2 gap-4 w-full'>
-							<div className='flex flex-col'>
-								<label className='uppercase text-sm font-openSans font-bold pb-2'>
-									Name
+			<div className='h-[75vh]'>
+				<div className='relative bg-white w-[476px] h-[550px] lg:h-[500px] 2xl:h-[550px] md:left-[20%] md:bottom-[35%] lg:-mt-[27%] 2xl:-mt-[27%] lg:left-[55%] col-span-3'>
+					<div className='md:p-8 lg:p-6 2xl:p-8'>
+						<form
+							action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'
+							method='POST'
+							enctype='multipart/form-data'
+						>
+							<div className='grid md:grid-cols-2 gap-4 w-full'>
+								<div className='flex flex-col'>
+									<label className='uppercase text-sm font-openSans font-bold pb-2'>
+										Name
+									</label>
+									<input
+										className='border-[1px] p-3 flex border-gray-300'
+										type='text'
+										name='name'
+									/>
+								</div>
+								<div className='flex flex-col'>
+									<label className='uppercase text-sm font-openSans font-bold pb-2'>
+										Email
+									</label>
+									<input
+										className='border-[1px] p-3 flex border-gray-300'
+										type='email'
+										name='email'
+									/>
+								</div>
+							</div>
+							<div className='flex flex-col py-2'>
+								<label className='uppercase text-sm font-openSans font-bold py-2'>
+									Subject
 								</label>
 								<input
 									className='border-[1px] p-3 flex border-gray-300'
 									type='text'
-									name='name'
+									name='subject'
 								/>
 							</div>
-							<div className='flex flex-col'>
-								<label className='uppercase text-sm font-openSans font-bold pb-2'>
-									Email
+							<div className='flex flex-col py-2'>
+								<label className='uppercase text-sm font-openSans font-bold py-2'>
+									Message
 								</label>
-								<input
-									className='border-[1px] p-3 flex border-gray-300'
-									type='email'
-									name='email'
-								/>
+								<textarea
+									className='border-[1px] p-3 border-gray-300'
+									rows='6'
+									name='message'
+								></textarea>
 							</div>
-						</div>
-						<div className='flex flex-col py-2'>
-							<label className='uppercase text-sm font-openSans font-bold py-2'>
-								Subject
-							</label>
-							<input
-								className='border-[1px] p-3 flex border-gray-300'
-								type='text'
-								name='subject'
-							/>
-						</div>
-						<div className='flex flex-col py-2'>
-							<label className='uppercase text-sm font-openSans font-bold py-2'>
-								Message
-							</label>
-							<textarea
-								className='border-[1px] p-3 border-gray-300'
-								rows='6'
-								name='message'
-							></textarea>
-						</div>
-						<button className='formButton'>Send Message</button>
-					</form>
+							<button className='formButton'>Send Message</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
