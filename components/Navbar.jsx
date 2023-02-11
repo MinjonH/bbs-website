@@ -6,6 +6,7 @@ import { IoCallOutline } from 'react-icons/io5';
 import Image from 'next/image';
 import BBSLogo from '../public/images/bbsLogo.png';
 import Container from './Container';
+import ProjectButton from './ProjectButton';
 
 function Navbar({ buttonRef, showModal }) {
 	const [nav, setNav] = useState(false);
@@ -49,11 +50,9 @@ function Navbar({ buttonRef, showModal }) {
 								Home
 							</li>
 						</Link>
-						<Link href='/projects'>
-							<li className='ml-10 text-md uppercase hover:border-b hover:border-gray-400 p-2'>
-								Projects
-							</li>
-						</Link>
+						<li>
+							<ProjectButton />
+						</li>
 						<Link href='/contact'>
 							<li className='ml-10 text-md uppercase hover:border-b hover:border-gray-400 p-2'>
 								Contact

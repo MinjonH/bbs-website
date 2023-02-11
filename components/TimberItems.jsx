@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const ProjectItem = ({
+const TimberItems = ({
 	title,
 	backgroundImg,
 	year,
@@ -33,4 +33,4 @@ const ProjectItem = ({
 	);
 };
 
-export default ProjectItem;
+export default TimberItems;
