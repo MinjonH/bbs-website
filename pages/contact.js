@@ -1,8 +1,6 @@
 import React from 'react';
-import Footer from '@/components/Footer';
 import Head from 'next/head';
 import Contact from '@/components/Contact';
-import Copyright from '@/components/Copyright';
 
 function contact() {
 	return (
