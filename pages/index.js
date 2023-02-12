@@ -17,18 +17,18 @@ export default function Home() {
 				<link rel='icon' href='/images/bbsIcon.png' />
 			</Head>
 			<div>
-				<section className='absolute z-20 mt-[15%] lg:mt-[12%] ml-12 md:ml-24 lg:ml-36 2xl:ml-64 text-5xl xl:text-[70pt] font-ttHoves text-white'>
+				<section className='absolute z-20 mt-[20%] md:mt-[15%] lg:mt-[12%] ml-12 md:ml-24 lg:ml-36 2xl:ml-64 text-4xl md:text-5xl xl:text-[70pt] font-ttHoves text-white'>
 					We can build your
-					<div className='xl:text-8xl text-6xl mt-4 2xl:mt-8 text-left font-loveloLine'>
+					<div className='xl:text-8xl md:text-6xl text-5xl mt-4 2xl:mt-8 text-left font-loveloLine'>
 						DREAM
 					</div>
-					<div className='2xl:mt-20 mt-10 text-[20pt] xl:text-[25pt] w-[25rem] font-belleza text-white'>
+					<div className='2xl:mt-20 md:mt-10 mt-5 text-[15pt] md:text-[20pt] xl:text-[25pt] md:w-[25rem] w-[15rem] font-belleza leading-tight md:leading-normal text-white'>
 						Let us help you make your dream home a reality
 					</div>
 					<ul>
 						<Link href='/contact'>
 							<button>
-								<li className='yellowButton absolute md:-mt-18 lg:-mt-12 2xl:mt-0 font-openSans tracking-wider font-semibold text-[14pt]'>
+								<li className='yellowButton absolute md:-mt-18 lg:-mt-12 2xl:mt-0 font-openSans tracking-wider font-semibold text-[12pt] md:text-[14pt]'>
 									Get in touch
 								</li>
 							</button>

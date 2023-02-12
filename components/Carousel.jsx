@@ -16,17 +16,7 @@ import image3 from '../public/images/project3.jpg';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper';
 
-export default function Carousel({
-	title1,
-	title2,
-	title3,
-	location1,
-	location2,
-	location3,
-	year1,
-	year2,
-	year3,
-}) {
+export default function Carousel({ title1, title2, title3 }) {
 	return (
 		<>
 			<Swiper
@@ -44,7 +34,7 @@ export default function Carousel({
 				<SwiperSlide>
 					<Image className='slider' src={image1} alt='image 1' />
 					<div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
+						<h3 className='text-xl md:text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title1}
 						</h3>
 
@@ -56,7 +46,7 @@ export default function Carousel({
 				<SwiperSlide>
 					<Image className='slider' src={image2} alt='image 2' />
 					<div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
+						<h3 className='text-xl md:text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title2}
 						</h3>
 
@@ -68,7 +58,7 @@ export default function Carousel({
 				<SwiperSlide>
 					<Image className='slider' src={image3} alt='image 3' />
 					<div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-						<h3 className='text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
+						<h3 className='text-xl md:text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title3}
 						</h3>
 						<Link href='/projects/laminatedbeams'>

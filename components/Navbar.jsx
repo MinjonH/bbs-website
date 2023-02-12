@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { ImWhatsapp } from 'react-icons/im';
+import { BsFacebook } from 'react-icons/bs';
 import { IoCallOutline } from 'react-icons/io5';
 import Image from 'next/image';
 import BBSLogo from '../public/images/bbsLogo.png';
@@ -50,7 +52,7 @@ function Navbar({ buttonRef, showModal }) {
 								Home
 							</li>
 						</Link>
-						<li>
+						<li className='ml-10 text-md p-2'>
 							<ProjectButton />
 						</li>
 						<Link href='/contact'>
@@ -77,7 +79,7 @@ function Navbar({ buttonRef, showModal }) {
 						className={
 							colour
 								? 'ease-out w-28 absolute right-6 lg:right-12 top-4 duration-700'
-								: 'absolute w-36 2xl:w-52 right-6 lg:right-12 top-6 ease-in duration-700'
+								: 'absolute w-36 2xl:w-52 right-6 lg:right-12 top-6 ease-in duration-700 hidden md:flex'
 						}
 						src={BBSLogo}
 					/>
@@ -116,9 +118,9 @@ function Navbar({ buttonRef, showModal }) {
 								<Link href='/'>
 									<li className='py-4 text-sm'>Home</li>
 								</Link>
-								<Link href='/projects'>
-									<li className='py-4 text-sm'>Projects</li>
-								</Link>
+								<li className='py-4 text-sm'>
+									<ProjectButton />
+								</li>
 								<Link href='/contact'>
 									<li className='py-4 text-sm'>Contact</li>
 								</Link>
@@ -126,24 +128,33 @@ function Navbar({ buttonRef, showModal }) {
 							<div className='pt-40 uppercase tracking-widest text-center text-black'>
 								<p>Let&apos;s Connect</p>
 								<div className='flex items-center justify-between my-8 px-10 w-full'>
-									<a href='/' target='_blank' rel='noreferrer'>
+									{/* <a href='/' target='_blank' rel='noreferrer'>
 										<div className='linkDotsMobile'>
 											<FaLinkedinIn />
 										</div>
-									</a>
-
+									</a> */}
 									<a
-										href='https://github.com/MinjonH'
+										href={`https://wa.me/27764110493?text=${encodeURIComponent()}`}
 										target='_blank'
 										rel='noreferrer'
 									>
 										<div className='linkDotsMobile'>
-											<FaGithub />
+											<ImWhatsapp />
 										</div>
 									</a>
 
 									<a
-										href='mailto:minjon.holtzhausen@gmail.com'
+										href='https://www.facebook.com/BBSMicaBallito'
+										target='_blank'
+										rel='noreferrer'
+									>
+										<div className='linkDotsMobile'>
+											<BsFacebook />
+										</div>
+									</a>
+
+									<a
+										href='mailto:truss1@bbsgroup.co.za'
 										target='_blank'
 										rel='noreferrer'
 									>
@@ -152,7 +163,7 @@ function Navbar({ buttonRef, showModal }) {
 										</div>
 									</a>
 
-									<a href='tel:+27836029730'>
+									<a href='tel:+2776410493'>
 										<div className='linkDotsMobile'>
 											<IoCallOutline />
 										</div>

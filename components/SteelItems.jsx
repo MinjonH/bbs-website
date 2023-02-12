@@ -18,7 +18,7 @@ const SteelItems = ({
 					alt='/'
 				/>
 				<div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] '>
-					<h3 className='text-4xl text-white font-[1000] font-ttHoves tracking-wider text-center mb-4 '>
+					<h3 className='text-3xl md:text-4xl text-white font-[1000] font-ttHoves tracking-wider text-center mb-4'>
 						{title}
 					</h3>
 					<p className='mb-4 mt-2 font-openSans text-white text-center'>
