@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function About() {
 	return (
-		<div className='w-full pt-[105%] md:pt-[75%] lg:pt-24 items-center pb-24 lg:pb-16 lg:grid grid-cols-2'>
+		<div className='w-full pt-[90%] md:pt-[75%] lg:pt-24 items-center pb-12 lg:pb-16 lg:grid grid-cols-2'>
 			<div className='w-full flex 2xl:ml-10 px-10'>
 				<Image src={AboutImg} alt='/' />
 			</div>

@@ -5,9 +5,9 @@ import { GoLocation } from 'react-icons/go';
 
 function Contact() {
 	return (
-		<div className='h-screen md:h-[130vh] lg:h-screen max-w-screen'>
+		<div className='h-[130vh] lg:h-screen max-w-screen'>
 			{/* Left */}
-			<div className='lg:ml-36 md:ml-[25%] ml-[5%] h-[50vh] md:h-screen'>
+			<div className='lg:ml-36 md:ml-[25%] ml-[5%] h-[50vh] md:h-screen text-[15px] md:text-lg'>
 				<p className='font-semibold text-lg md:text-[20pt] lg:text-[15pt] 2xl:text-[20pt] font-ttHoves pt-20 md:pt-48 lg:pt-24 2xl:pt-48 text-[#ff7500]'>
 					Contact Us
 				</p>
@@ -65,7 +65,7 @@ function Contact() {
 
 			{/* Right */}
 			<div className='h-[50vh] md:h-[75vh]'>
-				<div className='relative bg-white w-[250px] h-[350px] md:w-[476px] md:h-[550px] lg:h-[500px] 2xl:h-[550px] left-[20%] md:bottom-[35%] md:mt-0 lg:-mt-[27%] 2xl:-mt-[27%] lg:left-[55%] col-span-3 mt-12'>
+				<div className='relative bg-white w-[250px] h-[350px] md:w-[476px] md:h-[550px] lg:h-[500px] 2xl:h-[550px] left-[20%] md:bottom-[35%] md:mt-0 lg:-mt-[27%] 2xl:-mt-[27%] lg:left-[55%] col-span-3 mt-40'>
 					<div className='p-4 md:p-8 lg:p-6 2xl:p-8 text-xs md:text-base'>
 						<form
 							action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'

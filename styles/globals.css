@@ -41,7 +41,7 @@
     }
 
     .yellowButton{
-        @apply uppercase hover:border-gray-400 hover:border-solid hover:border-[1px] md:py-4 md:px-8 bg-[#FBC335] text-black border-[#FBC335] hover:scale-95 hover:text-white hover:bg-white/0 duration-[400ms] px-4 py-2
+        @apply uppercase hover:border-gray-400 hover:border-solid hover:border-[1px] md:py-4 md:px-8 bg-[#FBC335] text-black border-[#FBC335] hover:scale-95 hover:text-white hover:bg-white/0 duration-[400ms] px-4 py-1
     }
 
     .formButton{
