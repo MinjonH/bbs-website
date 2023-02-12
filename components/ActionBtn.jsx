@@ -10,12 +10,12 @@ function ActionBtn() {
 				</div>
 			</div>
 			<Link href='/contact'>
-				<div className='lg:mr-20 uppercase hover:border-gray-400 border-solid border-[1px] md:p-4 lg:p-6 bg-[#ff7500] hover:text-white border-[#ff7500] hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold text-sm lg:text-[14pt] cursor-pointer mr-2'>
+				<div className='lg:mr-20 uppercase hover:border-gray-400 border-solid border-[1px] md:p-4 lg:p-6 bg-[#ff7500] hover:text-white border-[#ff7500] hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold text-[12px] p-1 lg:text-[14pt] cursor-pointer mr-2'>
 					GET A QUOTE
 				</div>
 			</Link>
 			<a href='tel:0764110493' target='_blank' rel='noreferrer'>
-				<div className='mr-2 -ml-2 md:mr-12 lg:mr-20 uppercase hover:border-gray-400 border-solid border-[1px] md:p-4 lg:p-6 bg-[#fdbe00] hover:text-white border-[#fdbe00] hover:bg-white/0  hover:scale-95 duration-[400ms] font-openSans tracking-wider font-semibold text-sm lg:text-[14pt] cursor-pointer'>
+				<div className='mr-2 -ml-2 md:mr-12 lg:mr-20 uppercase hover:border-gray-400 border-solid border-[1px] md:p-4 lg:p-6 bg-[#fdbe00] hover:text-white border-[#fdbe00] hover:bg-white/0  hover:scale-95 duration-[400ms] font-openSans tracking-wider font-semibold text-[12px] p-1 lg:text-[14pt] cursor-pointer'>
 					TALK TO SOMEONE
 				</div>
 			</a>

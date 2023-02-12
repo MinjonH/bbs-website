@@ -7,6 +7,7 @@ import { ImWhatsapp } from 'react-icons/im';
 import { BsFacebook } from 'react-icons/bs';
 import { GrLinkedin, GrMail } from 'react-icons/gr';
 import qrCode from '../public/images/qrLink.png';
+import myLogo from '../public/images/myLogo.png';
 
 function Footer() {
 	return (
@@ -77,6 +78,24 @@ function Footer() {
 						fill
 						src={footerImg}
 					/>
+				</div>
+			</div>
+			<div className='pt-[43%] md:pt-[65%] lg:-mt-[70%]'>
+				<div className='absolute z-10 bg-[grey] h-[1px] w-[90%] left-[50%] translate-x-[-50%]'></div>
+				<div className='pt-2 lg:pt-4'>
+					<div className='absolute z-10 text-white left-[25%] md:left-[21%] lg:left-[15%] 2xl:left-[11.3%] translate-x-[-50%] hover:scale-110 cursor-pointer duration-300'>
+						<Image src={myLogo} alt='/' className='w-6 md:w-10' />
+					</div>
+					<div className='absolute z-10 text-white left-[12%] md:left-[11%] lg:left-[9%] 2xl:left-[7%] translate-x-[-50%]'>
+						<p className='text-[#d6d6d6] text-xs md:text-base font-ttHoves'>
+							Designed by
+						</p>
+					</div>
+					<div className='absolute z-10 text-white left-[50%] md:translate-x-[-50%]'>
+						<p className='text-[#d6d6d6] text-xs md:text-base font-ttHoves'>
+							© BBS Mica Empangeni
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>

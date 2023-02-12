@@ -42,7 +42,7 @@ function Contact() {
 							Visit our office
 						</p>
 						<p className='pl-8 font-openSans font-light text-white'>
-							43 Knutzen Street, Empangeni, 3880
+							43 Knutzen Street, Empangeni
 						</p>
 					</div>
 				</div>
