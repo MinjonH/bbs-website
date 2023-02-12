@@ -63,16 +63,5 @@
         @apply rounded-full bg-[#036fb4] p-[10px] cursor-pointer hover:scale-110 hover:bg-[#FBC335] ease-in duration-300 text-white
     }
 
-    .modal-cover{
-        @apply fixed top-[25%] lg:top-[15%] 2xl:top-[25%] left-[20%] md:left-[50%] -translate-x-[50%] -translate-y-[50%] md:w-[50%] lg:w-[30%] h-fit z-[100]
-    }
-
-    .modal-area {
-        @apply fixed top-0 left-0 w-fit h-fit p-8 bg-white shadow-lg overflow-y-auto
-      }
-
-    ._modal-close{
-        @apply absolute top-2 right-2 p-2 cursor-pointer hover:scale-110 duration-500
-    } 
       
 };

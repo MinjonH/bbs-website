@@ -3,6 +3,7 @@ import React from 'react';
 export const Form = () => {
 	return (
 		<form
+			className='md:w-80'
 			action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'
 			method='POST'
 			enctype='multipart/form-data'

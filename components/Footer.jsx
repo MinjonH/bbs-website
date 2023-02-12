@@ -80,7 +80,7 @@ function Footer() {
 					/>
 				</div>
 			</div>
-			<div className='pt-[43%] md:pt-[65%] lg:-mt-[70%]'>
+			<div className='pt-[45%] md:pt-[65%] lg:-mt-[70%]'>
 				<div className='absolute z-10 bg-[grey] h-[1px] w-[90%] left-[50%] translate-x-[-50%]'></div>
 				<div className='pt-2 lg:pt-4'>
 					<div className='absolute z-10 text-white left-[25%] md:left-[21%] lg:left-[15%] 2xl:left-[11.3%] translate-x-[-50%] hover:scale-110 cursor-pointer duration-300'>

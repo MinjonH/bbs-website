@@ -7,7 +7,7 @@ import { BsFacebook } from 'react-icons/bs';
 import { IoCallOutline } from 'react-icons/io5';
 import Image from 'next/image';
 import BBSLogo from '../public/images/bbsLogo.png';
-import Container from './Container';
+import Modal from './Modal';
 import ProjectButton from './ProjectButton';
 
 function Navbar({ buttonRef, showModal }) {
@@ -61,7 +61,7 @@ function Navbar({ buttonRef, showModal }) {
 							</li>
 						</Link>
 						<div>
-							<Container onSubmit={onSubmit} />
+							<Modal onSubmit={onSubmit} />
 						</div>
 					</ul>
 
