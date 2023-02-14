@@ -1,8 +1,15 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import cloudinary from '../utils/cloudinary';
 
 const steel = ({ images }) => {
+	const { isFallback } = useRouter();
+
+	if (isFallback) {
+		return <h1>Fallback</h1>;
+	}
+
 	return (
 		<div className='scroll-smooth bg-[#292929]'>
 			<Head>
@@ -22,7 +29,7 @@ const steel = ({ images }) => {
 							images.map(({ public_id, format }) => (
 								<div className='relative flex items-center justify-center h-96 w-full'>
 									<Image
-										alt='Next.js Conf photo'
+										alt='steel project photos'
 										className='object-cover h-full'
 										src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
 										width={720}

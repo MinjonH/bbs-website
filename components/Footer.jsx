@@ -67,7 +67,7 @@ function Footer() {
 					<div className='absolute z-[10] top-6 md:top-[75%] lg:top-[80%] left-[10%] md:left-[90%] translate-x-[-50%] translate-y-[-50%]'>
 						<Link href='https://www.facebook.com/watch/?v=3108218539462337'>
 							<div className='w-8 md:w-24'>
-								<Image src={qrCode} />
+								<Image src={qrCode} alt='qr code' />
 							</div>
 						</Link>
 					</div>
@@ -83,7 +83,7 @@ function Footer() {
 				<div className='absolute z-10 bg-[grey] h-[1px] w-[90%] left-[50%] translate-x-[-50%]'></div>
 				<div className='pt-2 lg:pt-4'>
 					<div className='absolute z-10 text-white left-[25%] md:left-[21%] lg:left-[15%] 2xl:left-[11.3%] translate-x-[-50%] hover:scale-110 cursor-pointer duration-300'>
-						<Image src={myLogo} alt='/' className='w-6 md:w-10' />
+						<Image src={myLogo} alt='logo' className='w-6 md:w-10' />
 					</div>
 					<div className='absolute z-10 text-white left-[12%] md:left-[11%] lg:left-[9%] 2xl:left-[7%] translate-x-[-50%]'>
 						<p className='text-[#d6d6d6] text-xs md:text-base font-ttHoves'>
