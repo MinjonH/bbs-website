@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Contact from '@/components/Contact';
+import Contact from '../components/Contact';
 
 function contact() {
 	return (
