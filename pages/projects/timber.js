@@ -18,17 +18,18 @@ const timber = ({ images }) => {
 					</h1>
 
 					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
-						{images.map(({ public_id, format }) => (
-							<div className='relative flex items-center justify-center h-96 w-full'>
-								<Image
-									alt='Next.js Conf photo'
-									className='object-cover h-full'
-									src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
-									width={720}
-									height={480}
-								/>
-							</div>
-						))}
+						{images &&
+							images.map(({ public_id, format }) => (
+								<div className='relative flex items-center justify-center h-96 w-full'>
+									<Image
+										alt='Next.js Conf photo'
+										className='object-cover h-full'
+										src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
+										width={720}
+										height={480}
+									/>
+								</div>
+							))}
 					</div>
 				</div>
 			</div>
