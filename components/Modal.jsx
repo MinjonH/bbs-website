@@ -5,7 +5,7 @@ import Form from './Form';
 import { GrClose } from 'react-icons/gr';
 
 export default function MyModal() {
-	let [isOpen, setIsOpen] = useState(true);
+	let [isOpen, setIsOpen] = useState(false);
 
 	function closeModal() {
 		setIsOpen(false);
@@ -16,7 +16,7 @@ export default function MyModal() {
 	}
 
 	return (
-		<>
+		<div>
 			<div>
 				<button type='button' onClick={openModal}>
 					<ModalButton />
@@ -57,6 +57,6 @@ export default function MyModal() {
 					</div>
 				</Dialog>
 			</Transition>
-		</>
+		</div>
 	);
 }

@@ -4,7 +4,7 @@ export const Form = () => {
 	return (
 		<form
 			className='md:w-80'
-			action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'
+			action='https://getform.io/f/09405be9-fa10-4ac1-aa24-fa6e3144a847'
 			method='POST'
 			enctype='multipart/form-data'
 		>

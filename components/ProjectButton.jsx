@@ -2,7 +2,7 @@ import { Menu, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 
 const links = [
-	{ href: '/projects/lgsteel', label: 'Light Guage Steel Projects' },
+	{ href: '/projects/steel', label: 'Light Guage Steel Projects' },
 	{ href: '/projects/timber', label: 'Timber Projects' },
 	{ href: '/projects/laminatedbeams', label: 'Laminated Beam Projects' },
 ];
