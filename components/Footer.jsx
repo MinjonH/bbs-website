@@ -2,10 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import footerImg from '../public/images/bbsFooter.png';
-import { FiInstagram } from 'react-icons/fi';
 import { ImWhatsapp } from 'react-icons/im';
 import { BsFacebook } from 'react-icons/bs';
-import { GrLinkedin, GrMail } from 'react-icons/gr';
+import { GrMail } from 'react-icons/gr';
 import qrCode from '../public/images/qrLink.png';
 import myLogo from '../public/images/myLogo.png';
 

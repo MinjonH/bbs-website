@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn } from 'react-icons/fa';
 import { ImWhatsapp } from 'react-icons/im';
 import { BsFacebook } from 'react-icons/bs';
 import { IoCallOutline } from 'react-icons/io5';
@@ -10,7 +9,7 @@ import BBSLogo from '../public/images/bbsLogo.png';
 import Modal from './Modal';
 import ProjectButton from './ProjectButton';
 
-function Navbar({ buttonRef, showModal }) {
+function Navbar() {
 	const [nav, setNav] = useState(false);
 	const [colour, setColour] = useState(false);
 
