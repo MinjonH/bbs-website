@@ -38,7 +38,7 @@ export default function Carousel({ title1, title2, title3 }) {
 							{title1}
 						</h3>
 
-						<Link href='/projects/timber'>
+						<Link href='/timber'>
 							<p className='projectBtn'>More Info</p>
 						</Link>
 					</div>
@@ -50,7 +50,7 @@ export default function Carousel({ title1, title2, title3 }) {
 							{title2}
 						</h3>
 
-						<Link href='/projects/lgsteel'>
+						<Link href='/lgsteel'>
 							<p className='projectBtn'>More Info</p>
 						</Link>
 					</div>
@@ -61,7 +61,7 @@ export default function Carousel({ title1, title2, title3 }) {
 						<h3 className='text-xl md:text-3xl font-ttHoves font-bold uppercase text-white tracking-wider text-center'>
 							{title3}
 						</h3>
-						<Link href='/projects/laminatedbeams'>
+						<Link href='/laminatedbeams'>
 							<p className='projectBtn'>More Info</p>
 						</Link>
 					</div>

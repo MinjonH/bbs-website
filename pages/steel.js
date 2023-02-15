@@ -46,7 +46,7 @@ const steel = ({ images }) => {
 
 export default steel;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 	const results = await cloudinary.v2.search
 		.expression(`folder:${process.env.CLOUDINARY_FOLDER2}/*`)
 		.sort_by('public_id', 'desc')
