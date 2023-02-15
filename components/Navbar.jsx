@@ -133,7 +133,9 @@ function Navbar() {
 										</div>
 									</a> */}
 									<a
-										href={`https://wa.me/27764110493?text=${encodeURIComponent()}`}
+										href={`https://wa.me/27764110493?text=${encodeURIComponent(
+											'Hi there'
+										)}`}
 										target='_blank'
 										rel='noreferrer'
 									>
@@ -162,7 +164,7 @@ function Navbar() {
 										</div>
 									</a>
 
-									<a href='tel:+2776410493'>
+									<a href='tel:+27764110493'>
 										<div className='linkDotsMobile'>
 											<IoCallOutline />
 										</div>
