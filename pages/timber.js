@@ -1,14 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 import cloudinary from '../utils/cloudinary';
 
 const timber = ({ images }) => {
-	const { isFallback } = useRouter();
-
-	if (isFallback) {
-		return <h1>Fallback</h1>;
-	}
 
 	return (
 		<div className='scroll-smooth bg-[#292929]'>
