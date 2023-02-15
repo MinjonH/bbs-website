@@ -3,7 +3,6 @@ import Image from 'next/image';
 import cloudinary from '../utils/cloudinary';
 
 const timber = ({ images }) => {
-
 	return (
 		<div className='scroll-smooth bg-[#292929]'>
 			<Head>
@@ -19,18 +18,17 @@ const timber = ({ images }) => {
 					</h1>
 
 					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
-						{images &&
-							images.map(({ public_id, format }) => (
-								<div className='relative flex items-center justify-center h-96 w-full'>
-									<Image
-										alt='timber project photos'
-										className='object-cover h-full'
-										src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
-										width={720}
-										height={480}
-									/>
-								</div>
-							))}
+						{images.map(({ public_id, format }) => (
+							<div className='relative flex items-center justify-center h-96 w-full'>
+								<Image
+									alt='timber project photos'
+									className='object-cover h-full'
+									src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
+									width={720}
+									height={480}
+								/>
+							</div>
+						))}
 					</div>
 				</div>
 			</div>
@@ -40,7 +38,7 @@ const timber = ({ images }) => {
 
 export default timber;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
 	const results = await cloudinary.v2.search
 		.expression(`folder:${process.env.CLOUDINARY_FOLDER3}/*`)
 		.sort_by('public_id', 'desc')
