@@ -41,7 +41,7 @@ export default laminatedBeams;
 export async function getStaticProps() {
 	const results = await cloudinary.v2.search
 		.expression(`folder:${process.env.CLOUDINARY_FOLDER1}/*`)
-		.sort_by('public_id', 'desc')
+		.sort_by('created_at', 'asc')
 		.max_results(400)
 		.execute();
 
@@ -53,6 +53,7 @@ export async function getStaticProps() {
 			height: result.height,
 			width: result.width,
 			public_id: result.public_id,
+			created_at: result.created_at,
 			format: result.format,
 		});
 		i++;

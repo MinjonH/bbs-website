@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import Contact from '../components/Contact';
+import ContactBallito from '../../components/ContactBallito';
 
-function contact() {
+function ballito() {
 	return (
 		<div className='scroll-smooth bg-[#292929]'>
 			<Head>
@@ -11,9 +11,9 @@ function contact() {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/images/bbsIcon.png' />
 			</Head>
-			<Contact />
+			<ContactBallito />
 		</div>
 	);
 }
 
-export default contact;
+export default ballito;

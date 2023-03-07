@@ -8,6 +8,7 @@ import Image from 'next/image';
 import BBSLogo from '../public/images/bbsLogo.png';
 import Modal from './Modal';
 import ProjectButton from './ProjectButton';
+import ContactButton from './ContactButton';
 
 function Navbar() {
 	const [nav, setNav] = useState(false);
@@ -54,11 +55,9 @@ function Navbar() {
 						<li className='ml-10 text-md p-2'>
 							<ProjectButton />
 						</li>
-						<Link href='/contact'>
-							<li className='ml-10 text-md uppercase hover:border-b hover:border-gray-400 p-2'>
-								Contact
-							</li>
-						</Link>
+						<li className='ml-10 text-md p-2'>
+							<ContactButton />
+						</li>
 						<div>
 							<Modal onSubmit={onSubmit} />
 						</div>
@@ -120,9 +119,9 @@ function Navbar() {
 								<li className='py-4 text-sm'>
 									<ProjectButton />
 								</li>
-								<Link href='/contact'>
-									<li className='py-4 text-sm'>Contact</li>
-								</Link>
+								<li className='py-4 text-sm'>
+									<ContactButton />
+								</li>
 							</ul>
 							<div className='pt-40 uppercase tracking-widest text-center text-black'>
 								<p>Let&apos;s Connect</p>

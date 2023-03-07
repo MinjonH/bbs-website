@@ -50,7 +50,7 @@ export default function Carousel({ title1, title2, title3 }) {
 							{title2}
 						</h3>
 
-						<Link href='/lgsteel'>
+						<Link href='/steel'>
 							<p className='projectBtn'>More Info</p>
 						</Link>
 					</div>

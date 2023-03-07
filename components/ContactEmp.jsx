@@ -68,7 +68,7 @@ function Contact() {
 				<div className='relative bg-white w-[250px] h-[350px] md:w-[476px] md:h-[550px] lg:h-[500px] 2xl:h-[550px] left-[20%] md:bottom-[35%] md:mt-0 lg:-mt-[27%] 2xl:-mt-[27%] lg:left-[55%] col-span-3 mt-40'>
 					<div className='p-4 md:p-8 lg:p-6 2xl:p-8 text-xs md:text-base'>
 						<form
-							action='https://getform.io/f/6f97baae-2b73-4ba6-be77-2eba7de58ad1'
+							action='https://getform.io/f/09405be9-fa10-4ac1-aa24-fa6e3144a847'
 							method='POST'
 							enctype='multipart/form-data'
 						>
