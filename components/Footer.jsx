@@ -19,15 +19,18 @@ function Footer() {
 						</h1>
 					</div>
 
-					<div className='text-sm md:text-2xl lg:text-[25pt] absolute z-10 font-semibold top-[40%] md:top-[50%] left-[25%] translate-x-[-50%] translate-y-[-25%]'>
+					<div className='text-[9px] md:text-2xl lg:text-[25pt] absolute z-10 font-semibold top-[40%] md:top-[50%] left-[25%] translate-x-[-50%] translate-y-[-25%]'>
 						<p className='text-white'>43 Knutzen Street</p>
 						<p className='text-white md:py-4'>Empangeni</p>
-						<p className='text-white'>3880</p>
+						<hr className='my-2 lg:my-6' />
+						<p className='text-white'>10 Moffatt Drive</p>
+						<p className='text-white md:py-4'>Ballito</p>
 					</div>
 
-					<div className='text-sm md:text-2xl lg:text-[25pt] absolute z-10 font-semibold top-[40%] md:top-[50%] left-[70%] md:left-[75%] translate-x-[-50%] translate-y-[-25%]'>
-						<p className='text-white'>Tel: 035 787 1453</p>
-						<p className='text-white md:py-4'>Email: truss1@bbsgroup.co.za</p>
+					<div className='w-[35%] md:w-[40%] 2xl:w-fit text-[9px] md:text-2xl lg:text-[25pt] absolute z-10 font-semibold top-[40%] md:top-[50%] left-[65%] md:left-[75%] translate-x-[-50%] translate-y-[-25%]'>
+						<p className='text-white'>Empangeni Tel: 035 787 1453</p>
+						<p className='text-white py-1 md:py-4'>Ballito Tel: 032 946 2014</p>
+						<p className='text-white'>Email: truss1@bbsgroup.co.za</p>
 						<div className='flex items-left grid-cols-5 gap-4 m-auto pt-2 md:pt-4'>
 							<a
 								href={`https://wa.me/27764110493?text=${encodeURIComponent()}`}
@@ -64,7 +67,7 @@ function Footer() {
 							</Link>
 						</div>
 					</div>
-					<div className='absolute z-[10] top-6 md:top-[75%] lg:top-[80%] left-[10%] md:left-[90%] translate-x-[-50%] translate-y-[-50%]'>
+					<div className='absolute z-[10] top-6 md:top-[80%] lg:top-[80%] left-[10%] md:left-[90%] translate-x-[-50%] translate-y-[-50%]'>
 						<Link href='https://www.facebook.com/watch/?v=3108218539462337'>
 							<div className='w-8 md:w-24'>
 								<Image src={qrCode} alt='qr code' />

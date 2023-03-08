@@ -2,9 +2,9 @@ import { Menu, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 
 const links = [
-	{ href: '/steel', label: 'Light Guage Steel Projects' },
-	{ href: '/timber', label: 'Timber Projects' },
-	{ href: '/laminatedbeams', label: 'Laminated Beam Projects' },
+	{ href: '/projects/steel', label: 'Light Guage Steel Projects' },
+	{ href: '/projects/timber', label: 'Timber Projects' },
+	{ href: '/projects/laminatedbeams', label: 'Laminated Beam Projects' },
 ];
 
 export default function ProjectButton() {

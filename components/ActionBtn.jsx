@@ -9,7 +9,7 @@ function ActionBtn() {
 					Ready to pull the trigger?
 				</div>
 			</div>
-			<Link href='/contact'>
+			<Link href='/contact/empangeni'>
 				<div className='lg:mr-20 uppercase hover:border-gray-400 border-solid border-[1px] md:p-4 lg:p-6 bg-[#ff7500] hover:text-white border-[#ff7500] hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold text-[12px] p-1 lg:text-[14pt] cursor-pointer mr-2'>
 					GET A QUOTE
 				</div>
