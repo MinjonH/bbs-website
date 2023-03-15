@@ -4,6 +4,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
 import { ImWhatsapp } from 'react-icons/im';
 import { BsFacebook } from 'react-icons/bs';
 import { IoCallOutline } from 'react-icons/io5';
+import { FiInstagram } from 'react-icons/fi';
 import Image from 'next/image';
 import BBSLogo from '../public/images/bbsLogo.png';
 import Modal from './Modal';
@@ -144,12 +145,21 @@ function Navbar() {
 									</a>
 
 									<a
-										href='https://www.facebook.com/BBSMicaBallito'
+										href='https://www.facebook.com/BBSTrussDivision'
 										target='_blank'
 										rel='noreferrer'
 									>
 										<div className='linkDotsMobile'>
 											<BsFacebook />
+										</div>
+									</a>
+									<a
+										href='https://www.instagram.com/bbs_truss_division/'
+										target='_blank'
+										rel='noreferrer'
+									>
+										<div className='linkDotsMobile'>
+											<FiInstagram />
 										</div>
 									</a>
 
@@ -160,12 +170,6 @@ function Navbar() {
 									>
 										<div className='linkDotsMobile'>
 											<AiOutlineMail />
-										</div>
-									</a>
-
-									<a href='tel:+27764110493'>
-										<div className='linkDotsMobile'>
-											<IoCallOutline />
 										</div>
 									</a>
 								</div>

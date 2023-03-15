@@ -12,8 +12,9 @@ export default function Home() {
 		<div className='scroll-smooth bg-[#292929]'>
 			<Head>
 				<title>BBS TRUSS DIVISION</title>
+				<meta property='og:title' content='BBS Truss Division' />
 				<meta
-					name='description'
+					property='og:description'
 					content='BBS Truss Division provides professional roofing design and construction to the KZN area'
 				/>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -22,9 +23,9 @@ export default function Home() {
 			<div>
 				<section className='absolute z-20 mt-[20%] md:mt-[15%] lg:mt-[12%] ml-12 md:ml-24 lg:ml-36 2xl:ml-64 text-4xl md:text-5xl xl:text-[70pt] font-ttHoves text-white'>
 					<div>We can build your</div>
-					<div className='xl:text-8xl md:text-6xl text-5xl mt-2 2xl:mt-8 text-left font-loveloLine'>
+					<span className='xl:text-8xl md:text-6xl text-5xl mt-2 2xl:mt-8 text-left font-loveloLine'>
 						DREAM
-					</div>
+					</span>
 					<div className='2xl:mt-20 md:mt-10 mt-2 text-[15pt] md:text-[20pt] xl:text-[25pt] md:w-[25rem] w-[15rem] font-belleza leading-tight md:leading-normal text-white'>
 						Let us help you make your dream home a reality
 					</div>

@@ -5,6 +5,7 @@ import footerImg from '../public/images/bbsFooter.png';
 import { ImWhatsapp } from 'react-icons/im';
 import { BsFacebook } from 'react-icons/bs';
 import { GrMail } from 'react-icons/gr';
+import { FiInstagram } from 'react-icons/fi';
 import qrCode from '../public/images/qrLink.png';
 import myLogo from '../public/images/myLogo.png';
 
@@ -47,7 +48,7 @@ function Footer() {
 								</div>
 							</a> */}
 							<a
-								href='https://www.facebook.com/BBSMicaBallito'
+								href='https://www.facebook.com/BBSTrussDivision'
 								target='_blank'
 								rel='noreferrer'
 							>
@@ -55,11 +56,15 @@ function Footer() {
 									<BsFacebook />
 								</div>
 							</a>
-							{/* <a href='/' target='_blank' rel='noreferrer'>
+							<a
+								href='https://www.instagram.com/bbs_truss_division/'
+								target='_blank'
+								rel='noreferrer'
+							>
 								<div className='linkDots'>
 									<FiInstagram />
 								</div>
-							</a> */}
+							</a>
 							<Link href='mailto:truss1@bbsgroup.co.za'>
 								<div className='linkDots'>
 									<GrMail />

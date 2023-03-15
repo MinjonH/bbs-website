@@ -25,7 +25,7 @@ export default function ProjectButton() {
 					leaveFrom='transform opacity-100 scale-100'
 					leaveTo='transform opacity-0 scale-95'
 				>
-					<Menu.Items className='absolute left-1 mt-4 w-64 origin-top-right divide-y divide-gray-200 bg-white text-black focus:outline-none px-4 py-2'>
+					<Menu.Items className='absolute z-10 left-1 mt-4 w-64 origin-top-right divide-y divide-gray-200 bg-white text-black focus:outline-none px-4 py-2'>
 						{links.map((link) => (
 							<Menu.Item
 								as='a'

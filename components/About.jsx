@@ -12,7 +12,7 @@ function About() {
 				<p className='font-bold pb-4 md:text-5xl text-4xl font-openSans tracking-widest text-white'>
 					About Us
 				</p>
-				<p className='py-2 md:py-4 text-white leading-relaxed text-[12pt] md:text-[20px]'>
+				<p className='py-2 md:py-4 text-white px-2 text-justify leading-relaxed text-[12pt] md:text-[20px]'>
 					We are one of the largest and most established truss manufacturers in
 					KZN, with a 7000 square meter manufacturing facility. Here, we provide
 					an extensive range of roofing construction services. BBS Mica Truss
@@ -20,16 +20,16 @@ function About() {
 					computerized saws, 25-meter-long high-accuracy steel truss table, and
 					laminating beam manufacturing unit.
 				</p>
-				<div className='grid grid-cols-3 pt-2 md:pt-6 lg:-ml-24 lg:-mr-12 2xl:mr-6 -mr-6'>
+				<div className='grid grid-cols-2 lg:grid-cols-3 pt-2 md:pt-6 lg:-ml-24 lg:-mr-12 2xl:mr-6 -mr-6'>
 					<div>
-						<p className='2xl:text-8xl lg:text-7xl md:text-6xl text-4xl font-openSans font-bold text-white'>
+						<p className='2xl:text-8xl lg:text-7xl md:text-6xl text-4xl font-openSans font-bold text-white text-left'>
 							<span className='text-[#ff7500]'>+</span>3500
 						</p>
-						<p className='pt-2 uppercase tracking-wide font-ttHoves text-center items-center text-xs md:text-sm'>
+						<p className='pt-2 uppercase tracking-wide font-ttHoves text-center items-center text-xs md:text-sm pr-8 lg:pr-0'>
 							projects
 						</p>
 					</div>
-					<div>
+					<div className='hidden lg:block'>
 						<p className='text-center 2xl:text-8xl lg:text-7xl md:text-6xl text-4xl font-openSans font-bold text-white'>
 							50
 							<span className='text-[#ff7500]'>Y</span>
@@ -39,7 +39,7 @@ function About() {
 						</p>
 					</div>
 					<div>
-						<p className='md:text-center 2xl:text-8xl lg:text-7xl md:text-6xl text-4xl font-openSans font-bold text-white'>
+						<p className='md:text-center 2xl:text-8xl lg:text-7xl md:text-6xl text-4xl font-openSans font-bold text-white text-center'>
 							<span className='text-[#ff7500]'>+</span>400
 						</p>
 						<p className='pt-2 uppercase tracking-wide font-ttHoves text-center items-center text-xs md:text-sm'>

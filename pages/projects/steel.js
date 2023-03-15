@@ -16,13 +16,13 @@ const steel = ({ images }) => {
 			</Head>
 			<div className='w-full'>
 				<div className='mx-12 px-2 py-20'>
-					<h1 className='font-black text-white text-5xl md:text-[40pt] font-ttHoves mt-4 mb-8'>
+					<h1 className='font-black text-white text-center text-4xl md:text-6xl font-ttHoves mt-4 md:mt-6 mb-8 md:mb-12'>
 						Light Guage Steel Projects
 					</h1>
 
 					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
 						{images.map(({ public_id, format }) => (
-							<div className='relative flex items-center justify-center h-96 w-full'>
+							<div className='relative flex items-center justify-center h-64 md:h-96 w-full'>
 								<Image
 									alt='steel project photos'
 									className='object-cover h-full'
