@@ -37,7 +37,7 @@
         @apply text-right hover:underline-offset-1 
     }
     .blueButton{
-        @apply ml-10 uppercase border-gray-400 border-solid border-[1px] py-2 px-6 hover:bg-[#036fb4] hover:text-white hover:border-[#00000000] hover:scale-95 duration-[400ms] 
+        @apply ml-10 uppercase border-gray-400 border-solid border-[1px] py-2 px-6 hover:bg-[#ffc800] hover:text-white hover:border-[#00000000] hover:scale-95 duration-[400ms] 
     }
 
     .yellowButton{
@@ -45,14 +45,14 @@
     }
 
     .formButton{
-        @apply uppercase hover:border-gray-400 border-solid border-[1px] mt-4 py-2 md:py-4 lg:mt-2 lg:py-2 2xl:mt-4 2xl:py-4 w-full bg-[#ff7500] border-[#ff7500] text-white hover:text-black hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold md:text-[14pt] cursor-pointer
+        @apply uppercase hover:border-gray-400 border-solid border-[1px] mt-4 py-2 md:py-4 lg:mt-2 lg:py-2 2xl:mt-4 2xl:py-4 w-full bg-[#ffc800] border-[#ffc800] text-black hover:text-black hover:scale-95 hover:bg-white/0  duration-[400ms] font-openSans tracking-wider font-semibold md:text-[14pt] cursor-pointer
     }
     .slider{
         @apply object-cover w-screen h-[10rem] md:h-[25rem] 2xl:h-[35rem] opacity-50
         
     }
     .projectBtn{
-        @apply text-center font-semibold py-2 my-4 md:py-3 md:px-6 md:mt-10 font-openSans tracking-wider md:text-[12pt] uppercase border-white border-solid border-[1px] hover:bg-[#036fb4] hover:text-white hover:border-[#036fb4] hover:scale-95 text-white bg-white/0 duration-[400ms]
+        @apply text-center font-semibold py-2 my-4 md:py-3 md:px-6 md:mt-10 font-openSans tracking-wider md:text-[12pt] uppercase border-white border-solid border-[1px] hover:bg-[#ffc800] hover:text-white hover:border-[#000000] hover:scale-95 text-white bg-white/0 duration-[400ms]
     }
 
     .linkDots{
@@ -60,7 +60,7 @@
     }
 
     .linkDotsMobile{
-        @apply rounded-full bg-[#036fb4] p-[10px] cursor-pointer hover:scale-110 hover:bg-[#FBC335] ease-in duration-300 text-white
+        @apply rounded-full bg-[#000000] p-[10px] cursor-pointer hover:scale-110 hover:bg-[#ffc800] ease-in duration-300 text-white
     }
 
       

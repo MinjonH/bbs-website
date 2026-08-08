@@ -8,7 +8,7 @@ function Contact() {
 		<div className='h-[130vh] lg:h-screen max-w-screen'>
 			{/* Left */}
 			<div className='lg:ml-36 md:ml-[25%] ml-[5%] h-[50vh] md:h-screen text-[15px] md:text-lg'>
-				<p className='font-semibold text-lg md:text-[20pt] lg:text-[15pt] 2xl:text-[20pt] font-ttHoves pt-20 md:pt-48 lg:pt-24 2xl:pt-48 text-[#ff7500]'>
+				<p className='font-semibold text-lg md:text-[20pt] lg:text-[15pt] 2xl:text-[20pt] font-ttHoves pt-20 md:pt-48 lg:pt-24 2xl:pt-48 text-[#ffc800]'>
 					Contact Us
 				</p>
 				<h1 className='font-black text-white text-3xl md:text-[40pt] lg:text-[35pt] 2xl:text-[40pt] font-ttHoves mt-4 md:mb-6'>
@@ -19,7 +19,7 @@ function Contact() {
 				</h1>
 				{/* Call Button */}
 				<div className='flex pt-8 md:pt-12 lg:pt-8 2xl:pt-12'>
-					<div className='rounded-full border-solid border-[#FBC335] border-4 p-4 text-[#FBC335] ease-in duration-300'>
+					<div className='rounded-full border-solid border-[#ffc800] border-4 p-4 text-[#FBC335] ease-in duration-300'>
 						<IoCallOutline className='w-[20px] h-[20px] md:w-[35px] md:h-[35px]' />
 					</div>
 					<div>
@@ -34,7 +34,7 @@ function Contact() {
 
 				{/* Location button */}
 				<div className='flex pt-6 md:pt-12'>
-					<div className='rounded-full border-solid border-[#036fb4] border-4 p-4 text-[#036fb4] ease-in duration-300'>
+					<div className='rounded-full border-solid border-[#ffc800] border-4 p-4 text-[#ffc800] ease-in duration-300'>
 						<GoLocation className='w-[20px] h-[20px] md:w-[35px] md:h-[35px]' />
 					</div>
 					<div>
@@ -49,7 +49,7 @@ function Contact() {
 
 				{/* Mail button */}
 				<div className='flex pt-6 md:pt-12'>
-					<div className='rounded-full border-solid border-[#ff7500] border-4 p-4 text-[#ff7500] ease-in duration-300'>
+					<div className='rounded-full border-solid border-[#ffc800] border-4 p-4 text-[#ffc800] ease-in duration-300'>
 						<AiOutlineMail className='w-[20px] h-[20px] md:w-[35px] md:h-[35px]' />
 					</div>
 					<div>

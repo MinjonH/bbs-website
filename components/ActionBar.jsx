@@ -27,7 +27,7 @@ function ActionBar() {
 		>
 			<div className='max-w-[50%] mx-auto block'>
 				<div className='grid grid-cols-6 place-items-center h-40 2xl:h-48 lg:-mt-20 bg-white'>
-					<div className='bg-[#ff7500]'>
+					<div className='bg-[#ffc800]'>
 						<IoCallOutline className='p-[10px] w-[50px] h-[50px] 2xl:w-[75px] 2xl:h-[75px]' />
 					</div>
 
@@ -38,7 +38,7 @@ function ActionBar() {
 						<p className='font-openSans text-sm 2xl:text-base'>035 787 1453</p>
 					</div>
 
-					<AiOutlineMail className='-ml-14 p-[10px] bg-[#ff7500] w-[50px] h-[50px] 2xl:w-[75px] 2xl:h-[75px]' />
+					<AiOutlineMail className='-ml-14 p-[10px] bg-[#ffc800] w-[50px] h-[50px] 2xl:w-[75px] 2xl:h-[75px]' />
 
 					<div className='px-4 py-6 2xl:py-10 2xl:px-6 border-r-[1px] border-[grey] -ml-10 2xl:-ml-14'>
 						<h1 className='font-openSans uppercase font-bold text-xl 2xl:text-2xl tracking-wide pb-2'>
@@ -49,7 +49,7 @@ function ActionBar() {
 						</p>
 					</div>
 
-					<div className='bg-[#ff7500]'>
+					<div className='bg-[#ffc800]'>
 						<GoLocation className='cursor-pointer p-[10px] ease-in duration-500 w-[50px] h-[50px] 2xl:w-[75px] 2xl:h-[75px]' />
 					</div>
 
