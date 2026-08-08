@@ -27,3 +27,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BBS_WEBSITE_2389D }}'
           channelId: live
           projectId: bbs-website-2389d
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
