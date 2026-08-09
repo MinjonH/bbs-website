@@ -37,7 +37,11 @@ jobs:
           NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ secrets.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME }}
           CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
           CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          CLOUDINARY_FOLDER1: ${{ secrets.CLOUDINARY_FOLDER1 }}
+          CLOUDINARY_FOLDER2: ${{ secrets.CLOUDINARY_FOLDER2 }}
+          CLOUDINARY_FOLDER3: ${{ secrets.CLOUDINARY_FOLDER3 }}
         run: npx --no-install next build && npx next export
+
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
